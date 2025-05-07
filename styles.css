@@ -285,6 +285,30 @@ body {
       grid-template-columns: 1fr;
     }
 }
+
+/* Additional CSS Selectors to Fill Requirements */
+
+/*To add attribute that is a selector*/
+input[type="text"] {
+    border: 2px dashed rgb(145, 145, 240);
+}
+
+/* has() selector */
+section:has(img) {
+    outline: 3px solid orange;
+}
+
+/* Nested selector */
+.agenda-section {
+    background-color: #f4f4f4;
+  
+    p {
+      font-style: italic;
+      color: darkgreen;
+    }
+}
+  
+  
   
   
   
