@@ -182,5 +182,79 @@ video {
     background-color: black;
     color: white;
 }
+
+
+/* Positioning Issue Section */
+
+/* Static: default */
+header {
+    position: static;
+}
+
+/*This is the example for relative*/
+nav {
+    position: relative;
+    top: 5px;
+}
+  
+/* Fixed */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+  
+/* Absolute example*/
+img {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+  
+/* Sticky*/
+h1 {
+    position: sticky;
+    top: 0;
+    background-color: lightgray;
+}
+  
+
+/* Flexbox issue section below*/
+  
+.flex-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f7fa;
+    padding: 10px;
+}
+  
+.box {
+    background-color: #00796b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+
+/* Grid issue below*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #fce4ec;
+    padding: 10px;
+}
+  
+.grid-box {
+    background-color: #c2185b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+  
   
   
