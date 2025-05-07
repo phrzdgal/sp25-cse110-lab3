@@ -3,7 +3,7 @@
 */
 
 
-/*---COLORS---*/
+/*---Colors Issue---*/
 
 /* Named color example */
 h1 {
@@ -48,5 +48,49 @@ footer p {
 body {
     background-color: var(--main-bg, lightgreen);
 }
+
+/* ---Units/Selectors Issue--- */
+
+/* (em) relative unit */
+.agenda-title {
+    font-size: 1.5em;
+}
+  
+/* (rem) relative unit */
+.agenda-section {
+    padding: 1rem;
+}
+  
+/* (%) relative unit */
+img {
+    width: 80%;
+}
+  
+/* (px) absolute unit */
+li {
+    margin-bottom: 16px;
+}
+  
+/* (pt) absolute unit */
+button {
+    font-size: 12pt;
+}
+  
+/* (cm) absoulute unit */
+#media-section {
+    margin-top: 2cm;
+}
+  
+/* Universal selector */
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+  
+/* Combined selector */
+h2.agenda-title {
+    text-decoration: underline;
+}
+  
   
   
