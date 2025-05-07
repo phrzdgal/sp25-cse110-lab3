@@ -1,7 +1,7 @@
 /* 
   Comment 1: Lab 3 CSS Stylesheet
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 /*Colors Issue*/
 
@@ -239,7 +239,7 @@ h1 {
 }
   
 
-/* Grid issue below*/
+/* Grid issue completed below*/
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -255,6 +255,37 @@ h1 {
     text-align: center;
     border-radius: 5px;
 }
+
+
+/*Adding a 3rd party font below:*/
+body {
+    font-family: 'Courgette', cursive;
+}
+
+
+/*Responsive Issue Section Below*/
+
+/* Phones: max-width 600px */
+@media (max-width: 600px) {
+    body {
+      background-color: #fdf6e3;
+    }
+  
+    h1 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .flex-container {
+      align-items: stretch; 
+      flex-direction: column;
+    }
+  
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+}
+  
   
   
   
