@@ -1,3 +1,52 @@
 /* 
   Comment 1: Lab 3 CSS Stylesheet
 */
+
+
+/*---COLORS---*/
+
+/* Named color example */
+h1 {
+    color: orange;
+}
+  
+/* RGB example*/
+h2 {
+    color: rgb(109, 0, 128); 
+}
+  
+/* RGBA example (light red) */
+section:nth-of-type(5) {
+    background-color: rgba(238, 100, 100, 0.1); 
+}
+  
+/* Hex code example */
+section:nth-of-type(3) {
+    background-color: #f0f0f0;
+}
+  
+/* HSL example */
+form {
+    background-color: hsl(200, 70%, 90%);
+}
+  
+/* color-mix example (nav bar) */
+nav {
+    background-color: color-mix(in srgb, teal 60%, white 40%);
+}
+  
+/* Wide-gamut color example */
+footer p {
+    color: color(display-p3 0.8 0.2 0.4);
+}
+  
+/* CSS variable with fallback example */
+:root {
+    --main-bg: #e6ffe6;
+}
+  
+body {
+    background-color: var(--main-bg, lightgreen);
+}
+  
+  
