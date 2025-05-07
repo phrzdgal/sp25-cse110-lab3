@@ -138,5 +138,49 @@ Padding adjusts space within the section element */
     border: 2px solid gray;
     border-radius: 5px;
 }
-    
+
+
+/* Text/Display Issue -> Issues #10 and #11: */
+
+/* Text styling example */
+.highlight-text {
+    color: rgb(139, 0, 102);
+    text-align: left;
+    text-decoration: underline;
+}
+  
+/* hover class selector */
+.highlight-text:hover {
+    color: lightseagreen;
+    background-color: lightyellow;
+}
+  
+/* Selecting multiple elements (from section 2 of part 2) */
+h2, h3 {
+    text-transform: lowercase;
+}
+  
+
+form {
+    display: block; 
+}
+  
+img {
+    display: inline-block;
+}
+  
+audio {
+    display: inline;
+}
+  
+video {
+    display: none; 
+}
+  
+
+.submit-btn:hover {
+    background-color: black;
+    color: white;
+}
+  
   
