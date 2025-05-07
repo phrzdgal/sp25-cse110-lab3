@@ -3,7 +3,7 @@
 */
 
 
-/*---Colors Issue---*/
+/*Colors Issue*/
 
 /* Named color example */
 h1 {
@@ -49,7 +49,8 @@ body {
     background-color: var(--main-bg, lightgreen);
 }
 
-/* ---Units/Selectors Issue--- */
+
+/* Units/Selectors Issue */
 
 /* (em) relative unit */
 .agenda-title {
@@ -92,5 +93,50 @@ h2.agenda-title {
     text-decoration: underline;
 }
   
+
+/* Box Model */
+
+/* Longhand margin example 
+margin is adjusting the space outsdie the section*/
+.agenda-section {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
   
+/* Shorthand margin */
+/* Same as long hand, but all code is on one line*/
+.agenda-section {
+    margin: 10px 20px 10px 20px;
+}
+  
+/* Longhand padding example
+Padding adjusts space within the section element */
+.agenda-section {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+  
+/* Shorthand padding example */
+.agenda-section {
+    padding: 5px 10px 5px 10px;
+}
+  
+/* longhand border (border of course is affecting the edges) */
+#media-section {
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 5px;
+}
+  
+/* shorthand border */
+  #media-section {
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+    
   
